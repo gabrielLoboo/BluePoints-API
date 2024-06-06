@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<DataContext>(options =>
-    options.UseOracle("Password=180105;Persist Security Info=True;User ID=sa;Initial Catalog=DepartApp;Data Source=DESKTOP-BFHMBTJ;TrustServerCertificate=True"));
+    options.UseOracle("Password=password;Persist Security Info=True;User ID=sa;Initial Catalog=DepartApp;Data Source=DESKTOP-BFHMBTJ;TrustServerCertificate=True"));
 
 var app = builder.Build();
 

@@ -13,7 +13,7 @@ namespace BluePoints_API.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseOracle("Data Source=oracle.fiap.com.br:1521/orcl;User ID=rm99708;Password=180105");
+            optionsBuilder.UseOracle("Data Source=oracle.fiap.com.br:1521/orcl;User ID=user;Password=password");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
