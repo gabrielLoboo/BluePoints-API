@@ -1,10 +1,10 @@
 ﻿@model BluePoints_API.Models.Premio
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Premio";
 }
 
-<h1>Create</h1>
+<h1>Create Premio</h1>
 
 <h4>Premio</h4>
 <hr />
@@ -28,6 +28,11 @@
                 <span asp-validation-for="Pontos" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="CategoriaId" class="control-label"></label>
+                <select asp-for="CategoriaId" class="form-control" asp-items="ViewBag.CategoriaId"></select>
+                <span asp-validation-for="CategoriaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
@@ -39,5 +44,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

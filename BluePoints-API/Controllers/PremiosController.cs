@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -22,39 +19,21 @@ namespace BluePoints_API.Controllers
         // GET: Premios
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Premios.ToListAsync());
-        }
-
-        // GET: Premios/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var premio = await _context.Premios
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (premio == null)
-            {
-                return NotFound();
-            }
-
-            return View(premio);
+            var premios = _context.Premios.Include(p => p.Categoria);
+            return View(await premios.ToListAsync());
         }
 
         // GET: Premios/Create
         public IActionResult Create()
         {
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome");
             return View();
         }
 
         // POST: Premios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Descricao,Pontos")] Premio premio)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Descricao,Pontos,CategoriaId")] Premio premio)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +41,7 @@ namespace BluePoints_API.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", premio.CategoriaId);
             return View(premio);
         }
 
@@ -78,15 +58,14 @@ namespace BluePoints_API.Controllers
             {
                 return NotFound();
             }
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", premio.CategoriaId);
             return View(premio);
         }
 
         // POST: Premios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Descricao,Pontos")] Premio premio)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Descricao,Pontos,CategoriaId")] Premio premio)
         {
             if (id != premio.Id)
             {
@@ -113,6 +92,7 @@ namespace BluePoints_API.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", premio.CategoriaId);
             return View(premio);
         }
 
@@ -125,6 +105,7 @@ namespace BluePoints_API.Controllers
             }
 
             var premio = await _context.Premios
+                .Include(p => p.Categoria)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (premio == null)
             {

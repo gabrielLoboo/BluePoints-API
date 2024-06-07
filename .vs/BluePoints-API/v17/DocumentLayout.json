@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\controllers\\premioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\controllers\\premioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\views\\premios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\views\\premios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\models\\usuariopremio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\models\\premio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\models\\premio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,8 +31,20 @@
       "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\views\\usuariopremios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\views\\premios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\views\\premios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\controllers\\usuariopremioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\views\\usuariopremios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\views\\usuariopremios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\controllers\\premioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\controllers\\premioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|solutionrelative:bluepoints-api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CE6811A-62A8-4413-8DC3-6412A7544FBB}|BluePoints-API\\BluePoints-API.csproj|c:\\users\\gabriel\\source\\repos\\bluepoints-api\\bluepoints-api\\migrations\\20240605234843_addusuariopremio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,27 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Views\\Premios\\Create.cshtml",
               "RelativeDocumentMoniker": "BluePoints-API\\Views\\Premios\\Create.cshtml",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Views\\Premios\\Create.cshtml",
               "RelativeToolTip": "BluePoints-API\\Views\\Premios\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T02:43:13.031Z"
+              "WhenOpened": "2024-06-06T02:43:13.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Views\\UsuarioPremios\\Create.cshtml",
               "RelativeDocumentMoniker": "BluePoints-API\\Views\\UsuarioPremios\\Create.cshtml",
@@ -94,36 +99,38 @@
               "RelativeToolTip": "BluePoints-API\\Views\\UsuarioPremios\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T01:43:59.752Z"
+              "WhenOpened": "2024-06-06T01:43:59.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BluePoints-API\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BluePoints-API\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAiwCAAAAAdAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwCEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T00:35:01.949Z"
+              "WhenOpened": "2024-06-05T00:35:01.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Program.cs",
               "RelativeDocumentMoniker": "BluePoints-API\\Program.cs",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Program.cs",
               "RelativeToolTip": "BluePoints-API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T00:15:51.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\appsettings.json",
               "RelativeDocumentMoniker": "BluePoints-API\\appsettings.json",
@@ -135,45 +142,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Premio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Models\\Premio.cs",
               "RelativeDocumentMoniker": "BluePoints-API\\Models\\Premio.cs",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Models\\Premio.cs",
               "RelativeToolTip": "BluePoints-API\\Models\\Premio.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAASwAMAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T23:35:04.796Z"
+              "WhenOpened": "2024-06-04T23:35:04.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UsuarioPremio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Models\\UsuarioPremio.cs",
               "RelativeDocumentMoniker": "BluePoints-API\\Models\\UsuarioPremio.cs",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Models\\UsuarioPremio.cs",
               "RelativeToolTip": "BluePoints-API\\Models\\UsuarioPremio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T23:23:46.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "BluePoints-API\\Data\\DataContext.cs",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Data\\DataContext.cs",
               "RelativeToolTip": "BluePoints-API\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABtAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowB8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T14:27:41.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20240605234843_AddUsuarioPremio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Migrations\\20240605234843_AddUsuarioPremio.cs",
               "RelativeDocumentMoniker": "BluePoints-API\\Migrations\\20240605234843_AddUsuarioPremio.cs",
@@ -185,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "BluePoints-API\\Models\\Usuario.cs",
@@ -193,11 +201,51 @@
               "RelativeToolTip": "BluePoints-API\\Models\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T22:41:29.396Z"
+              "WhenOpened": "2024-06-04T22:41:29.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "PremiosController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Controllers\\PremiosController.cs",
+              "RelativeDocumentMoniker": "BluePoints-API\\Controllers\\PremiosController.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Controllers\\PremiosController.cs",
+              "RelativeToolTip": "BluePoints-API\\Controllers\\PremiosController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwDAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T00:39:16.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "BluePoints-API\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Models\\Categoria.cs",
+              "RelativeToolTip": "BluePoints-API\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:56:06.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "BluePoints-API\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "BluePoints-API\\Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:17:03.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UsuarioPremiosController.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Controllers\\UsuarioPremiosController.cs",
               "RelativeDocumentMoniker": "BluePoints-API\\Controllers\\UsuarioPremiosController.cs",
@@ -209,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "BluePoints-API\\Controllers\\UsuariosController.cs",
@@ -221,19 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PremiosController.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Controllers\\PremiosController.cs",
-              "RelativeDocumentMoniker": "BluePoints-API\\Controllers\\PremiosController.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Controllers\\PremiosController.cs",
-              "RelativeToolTip": "BluePoints-API\\Controllers\\PremiosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T00:39:16.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\BluePoints-API\\BluePoints-API\\Views\\UsuarioPremios\\Index.cshtml",
               "RelativeDocumentMoniker": "BluePoints-API\\Views\\UsuarioPremios\\Index.cshtml",

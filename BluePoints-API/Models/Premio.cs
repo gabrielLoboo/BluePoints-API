@@ -19,6 +19,9 @@ namespace BluePoints_API.Models
         [Required(ErrorMessage = "A quantidade de pontos do premio é obrigatório")]
         public int Pontos { get; set; }
 
+        public int CategoriaId { get; set; }
+        public Categoria Categoria { get; set; }
+
         public ICollection<UsuarioPremio> UsuarioPremios { get; set; } = new List<UsuarioPremio>();
     }
 }

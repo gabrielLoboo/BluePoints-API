@@ -227,3 +227,4 @@ C:\Users\Gabriel\source\repos\BluePoints-API\BluePoints-API\bin\Debug\net8.0\ru\
 C:\Users\Gabriel\source\repos\BluePoints-API\BluePoints-API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Gabriel\source\repos\BluePoints-API\BluePoints-API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Gabriel\source\repos\BluePoints-API\BluePoints-API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Gabriel\source\repos\BluePoints-API\BluePoints-API\obj\Debug\net8.0\BluePoints-API.sourcelink.json
