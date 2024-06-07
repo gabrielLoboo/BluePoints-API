@@ -23,6 +23,11 @@ namespace BluePoints_API.Data
             modelBuilder.Entity<UsuarioPremio>()
                 .HasKey(up => new { up.UsuarioId, up.PremioId });
 
+            modelBuilder.Entity<Premio>()
+                .HasOne(p => p.Categoria)
+                .WithMany(c => c.Premios)
+                .HasForeignKey(p => p.CategoriaId);
+
             modelBuilder.Entity<UsuarioPremio>()
                 .HasOne(up => up.Usuario)
                 .WithMany(u => u.UsuarioPremios)
